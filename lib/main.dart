@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'taskmanager.dart';
 import "package:flutter/material.dart";
 import 'taskmanager.dart';
+import 'All_Project.dart';
 void main() {
   runApp(const bernard());
 }
@@ -15,7 +16,7 @@ class bernard extends StatelessWidget {
       title: 'Task Manager',
       theme: ThemeData(primaryColor: Colors.grey),
       debugShowCheckedModeBanner: false,
-   home: TaskManager(), );
+   home: All_Project());
 
   }
 }
